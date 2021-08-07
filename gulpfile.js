@@ -102,7 +102,7 @@ gulp.task('watch-minify-concat',async function (){
     gulp.watch('src/' , gulp.series('html-minify'));
     gulp.watch('src/assets/fonts/' , gulp.series('font-copy'));
     gulp.watch('src/assets/scss/' , gulp.series('scss-compile'));
-    gulp.watch('src/assets/css/' , gulp.series('css-minify-concat'));
+    gulp.watch('src/assets/css/' , gulp.series('css-minify'));
     gulp.watch('src/assets/images/' , gulp.series('img-minify'));
-    gulp.watch('src/assets/js/' , gulp.series('js-minify-concat'));
+    gulp.watch('src/assets/js/' , gulp.series('js-minify'));
 })

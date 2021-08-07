@@ -1,0 +1,55 @@
+.login-btn {
+  position: absolute;
+  left: 15px;
+  background-color: transparent;
+  outline: none;
+  border:none;
+  i{
+    vertical-align: -2px;
+  }
+  span{
+    font-size: 16px;
+    color: $yellow-color;
+  }
+}
+
+
+.login-form
+#login-form {
+  .modal-header{
+    h5{
+      font-size: 18px;
+    }
+  }
+  .modal-body {
+    input{
+    direction: ltr !important;
+  }
+    .login-form {
+      label {
+        font-size: 14px;
+      }
+      input{
+        &[type=email]{
+          border: none;
+          border-bottom: 2px solid $grey-10;
+          border-radius: 0;
+        }
+        &[type=password]{
+          border: none;
+          border-bottom: 2px solid $grey-10;
+          border-radius: 0;
+        }
+      }
+    }
+  }
+  .modal-footer {
+    a{
+      font-size: 16px;
+      color: $blue-log;
+    }
+  }
+}
+#exampleInputEmail1::-webkit-input-placeholder,#exampleInputPassword1::-webkit-input-placeholder{
+  font-size: 16px!important;
+}

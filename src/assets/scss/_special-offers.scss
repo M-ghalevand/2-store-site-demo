@@ -1,0 +1,144 @@
+.custom-nav-tabs {
+  direction: ltr;
+  .offer-section-title{
+    right: 0;
+    font-size: 20px;
+    color: #393939;
+    border-bottom: 2px solid red;
+    padding-bottom: 6px;
+    top: -1px;
+  }
+  .nav-link{
+    margin-bottom: -1px;
+    background: 0 0;
+    border: none ;
+    display: block;
+    padding: .5rem 1rem;
+    color: #3d3d3d;
+    &.active{
+      color: $special-color;
+      background-color: transparent;
+      border-color: transparent;
+    }
+  }
+}
+.tab-pane{
+  .s-o-box-shadow {
+    box-shadow: 0 0 1px 1px $grey-10;
+    z-index: 1;
+  }
+  .offer-product-image {
+    width: 240px;
+    height: 240px;
+    overflow: hidden;
+    &:hover .first-img, &:hover .second-img {
+      transform: translateY(-240px);
+    }
+    .first-img, .second-img {
+      width: 240px;
+      transition: .5s ease;
+    }
+  }
+
+  .offer-rating {
+    color: #c6c611;
+  }
+
+  .offer-details {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .offer-price {
+    s {
+      margin-left: 2rem;
+    }
+  }
+  .count-down-timer {
+    .demos {
+      direction: ltr;
+      #day {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        &::after {
+          content: 'روز';
+          position: absolute;
+          top: 42px;
+          right: 8px;
+        }
+      }
+      #hours {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        &::after {
+          content: 'ساعت';
+          position: absolute;
+          top: 42px;
+          right: 0;
+        }
+      }
+      #minutes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        &::after {
+          content: 'دقیقه';
+          position: absolute;
+          top: 42px;
+          right: -1px;
+        }
+      }
+      #seconds {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        &::after {
+          content: 'ثانیه';
+          position: absolute;
+          top: 42px;
+          right: 0;
+        }
+      }
+
+      span {
+        background-color: $grey-10;
+        margin: 11px;
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        border-radius: 100%;
+        font-size: 14px;
+      }
+    }
+
+  }
+}
+
+@media screen and (max-width: 600px){
+  .offer-section-title{
+    right: 0;
+    font-size: 16px;
+    color: #393939;
+    top: 5px;
+  }
+}
+span{
+  color: #3d3d3d;
+}
+.offer-expire-text {
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.offer-expire-text-inner{
+  font-size: 24px;
+}

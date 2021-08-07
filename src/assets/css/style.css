@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: Vazir;
   src: url("../fonts/Vazir-Regular.eot");
@@ -265,4 +266,141 @@ body {
 .cat-hover img {
   width: 100px;
   transition: 0.5s ease;
+}
+
+.custom-nav-tabs {
+  direction: ltr;
+}
+.custom-nav-tabs .offer-section-title {
+  right: 0;
+  font-size: 20px;
+  color: #393939;
+  border-bottom: 2px solid red;
+  padding-bottom: 6px;
+  top: -1px;
+}
+.custom-nav-tabs .nav-link {
+  margin-bottom: -1px;
+  background: 0 0;
+  border: none;
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #3d3d3d;
+}
+.custom-nav-tabs .nav-link.active {
+  color: #ee6363;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.tab-pane .s-o-box-shadow {
+  box-shadow: 0 0 1px 1px #efefef;
+  z-index: 1;
+}
+.tab-pane .offer-product-image {
+  width: 240px;
+  height: 240px;
+  overflow: hidden;
+}
+.tab-pane .offer-product-image:hover .first-img, .tab-pane .offer-product-image:hover .second-img {
+  transform: translateY(-240px);
+}
+.tab-pane .offer-product-image .first-img, .tab-pane .offer-product-image .second-img {
+  width: 240px;
+  transition: 0.5s ease;
+}
+.tab-pane .offer-rating {
+  color: #c6c611;
+}
+.tab-pane .offer-details {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+.tab-pane .offer-price s {
+  margin-left: 2rem;
+}
+.tab-pane .count-down-timer .demos {
+  direction: ltr;
+}
+.tab-pane .count-down-timer .demos #day {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.tab-pane .count-down-timer .demos #day::after {
+  content: "روز";
+  position: absolute;
+  top: 42px;
+  right: 8px;
+}
+.tab-pane .count-down-timer .demos #hours {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.tab-pane .count-down-timer .demos #hours::after {
+  content: "ساعت";
+  position: absolute;
+  top: 42px;
+  right: 0;
+}
+.tab-pane .count-down-timer .demos #minutes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.tab-pane .count-down-timer .demos #minutes::after {
+  content: "دقیقه";
+  position: absolute;
+  top: 42px;
+  right: -1px;
+}
+.tab-pane .count-down-timer .demos #seconds {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.tab-pane .count-down-timer .demos #seconds::after {
+  content: "ثانیه";
+  position: absolute;
+  top: 42px;
+  right: 0;
+}
+.tab-pane .count-down-timer .demos span {
+  background-color: #efefef;
+  margin: 11px;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  border-radius: 100%;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 600px) {
+  .offer-section-title {
+    right: 0;
+    font-size: 16px;
+    color: #393939;
+    top: 5px;
+  }
+}
+span {
+  color: #3d3d3d;
+}
+
+.offer-expire-text {
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.offer-expire-text-inner {
+  font-size: 24px;
 }

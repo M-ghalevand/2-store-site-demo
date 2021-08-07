@@ -1,0 +1,43 @@
+.custom-col-lg-6 {
+  flex: 0 0 57%!important;
+  width: 57%!important;
+}
+.custom-center-slider2{
+  flex: 0 0 23%!important;
+  width: 23%!important;
+}
+.custom-center-slider {
+  flex: 0 0 20.5% !important;
+  width: 20.5% !important;
+  height: fit-content;
+}
+
+@media screen and (max-width: 991px) {
+
+  .custom-col-lg-6 {
+    flex: 0 0 100%;
+    width: 100%;
+  }
+  .custom-center-slider {
+    flex: 0 0 50%;
+    width: 50%;
+    margin-top: 1rem;
+    text-align: center;
+    height: fit-content;
+  }
+
+  .custom-center-slider2 {
+    flex: 0 0 46%;
+    width: 46%;
+    margin-top: 1rem;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 400px){
+  .custom-center-slider2 {
+    flex: 0 0 56%;
+    width: 56%;
+    margin-top: 1rem;
+    text-align: center;
+  }
+}

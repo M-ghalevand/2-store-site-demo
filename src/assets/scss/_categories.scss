@@ -1,0 +1,29 @@
+.cat-hover{
+  transition: .3s ease;
+  overflow:hidden;
+  &:hover{
+    z-index: 1;
+    box-shadow: 0 0 7px 1px $grey-20;
+  }
+  &:hover .d-flex .cat-desc{
+    z-index: 2;
+    transform: scale(1.4) ;
+  }
+  &:hover  img{
+    z-index: 1;
+    transform: scale(1.2) rotate(10deg);
+  }
+  .d-flex{
+    border-radius: 10px;
+    .cat-desc {
+      transition: .4s ease;
+      p{
+        font-size: 13px;
+      }
+    }
+  }
+   img{
+      width: 100px;
+      transition: .5s ease;
+    }
+}

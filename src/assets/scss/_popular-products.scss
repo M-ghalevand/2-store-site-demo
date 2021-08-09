@@ -1,0 +1,47 @@
+.p-title-offer{
+  right: 25px;
+}
+.owl-carousel{
+  position: relative !important;
+  .custom-card{
+    border: none;
+    border-radius: 0;
+    &:hover{
+      box-shadow: 0 0 10px 3px $grey-10;
+      z-index: 1;
+    }
+    .p-img{
+      max-width: 175px;
+    }
+    .card-body{
+      .p-title ,.p-price{
+        font-size: 14px;
+        color: #3c3b3b;
+      }
+    }
+  }
+  .owl-nav{
+    display: flex;
+    .owl-prev{
+      position: absolute;
+      width: 50px;
+      top: 40%;
+    }
+    .owl-next{
+      position: absolute;
+      left: 0;
+      width: 50px;
+      top: 40%;
+    }
+    span{
+      display: block;
+      font-size: 66px;
+      background-color: $white-color;
+      box-shadow: 0 0 12px 0 $grey-20;
+    }
+  }
+}
+
+
+
+

@@ -64,3 +64,41 @@ var x = setInterval(function () {
         }
     }
 }, 1000);
+
+// owl.carousel
+$(document).ready(function () {
+    $(".owl-carousel").owlCarousel({
+        rtl:true,
+        items: 4,
+        loop: true,
+        margin: 0,
+        nav:true,
+        dots:false,
+        center: true,
+        autoplay: false,
+        slideBy:3,
+        autoplayTimeout: 5000,
+        autoplayHoverPause: true,
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:1,
+                nav:true
+            },
+            600:{
+                items:2,
+                nav:false
+            },
+            1000:{
+                items:3,
+                nav:true,
+                center: false,
+            },
+            1200:{
+                items:4,
+                nav:true,
+
+            }
+        }
+    });
+});

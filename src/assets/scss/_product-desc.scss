@@ -1,0 +1,143 @@
+.custom-nav-tabs-product-page {
+  .nav-link.active{
+    border-top: 2px solid $special-color;
+    font-size: 16px;
+    margin-bottom: -2px;
+  }
+}
+.custom-tab-pane-product{
+  h5{
+    color:$grey-40;
+  }
+  .product-desc {
+    font-size: 15px;
+    line-height: 36px;
+    background-color: $grey-10;
+  }
+  .product-all-rate {
+    p {
+      font-size: 14px;
+    }
+  }
+  .product-main-desc{
+    font-size: 15px;
+    line-height: 36px;
+  }
+  .product-desc-step {
+    li{
+      border-right: 1px solid $grey-40;
+      font-size: 17px;
+      line-height: 46px;
+      color: #2f2f2f;
+      i{
+        top: -8px;
+        right: -10px;
+        font-size: 20px;
+        color: $grey-40;
+      }
+      .p-img-wrapper{
+        max-width: 500px;
+        margin: 0 auto;
+      }
+    }
+  }
+
+}
+.custom-tab-pane-product-details{
+  h5{
+    color:$grey-40;
+  }
+  ul{
+    p{
+      font-size: 16px;
+      i{
+        vertical-align: -3px;
+      }
+    }
+    li{
+      .key{
+        background-color: $grey-10;
+        flex: 0 0 20%;
+        height: 40px;
+        font-size: 15px;
+      }
+      .value{
+        background-color: $grey-10;
+        flex: 0 0 78%;
+        height: 40px;
+        font-size: 15px;
+      }
+    }
+  }
+}
+.custom-tab-pane-product-comment{
+  .progress-product-wrapper{
+    background-color: $grey-10;
+  }
+  .add-comment{
+    p{
+      a {
+        i{
+          vertical-align: -4px;
+        }
+      }
+      &:first-child{
+        font-size: 18px;
+        color: #505050;
+      }
+      &:nth-child(2){
+
+        color: #505050;
+      }
+    }
+  }
+  .custom-product-media {
+    .user-detailes {
+      p {
+        font-size: 15px;
+      }
+      .bg-custom{
+        font-size: 16px;
+      }
+      .p-color {
+        font-size: 15px;
+      }
+      .p-supplier{
+        font-size: 16px;
+        }
+      }
+    }
+  .user-p-comment {
+    p{
+      font-size: 18px;
+    }
+    ul.nav{
+      li{
+        font-size: 14px;
+        i{
+          font-size: 8px;
+          color: #8888fb;
+        }
+      }
+    }
+    .bnefit-comm-title{
+      font-size: 16px;
+    }
+    .comm-vote {
+      font-size: 16px;
+      span{
+        font-size: 14px;
+        padding: 4px 10px;
+      }
+    }
+  }
+  .add-comments {
+    p{
+      font-size: 18px;
+      i{
+        font-size: 36px;
+        vertical-align: -8px;
+      }
+    }
+  }
+}

@@ -269,16 +269,17 @@ body {
   transition: 0.5s ease;
 }
 
-.custom-nav-tabs {
-  direction: ltr;
-}
-.custom-nav-tabs .offer-section-title {
+.offer-section-title {
   right: 0;
   font-size: 20px;
   color: #393939;
   border-bottom: 2px solid red;
   padding-bottom: 6px;
   top: -1px;
+}
+
+.custom-nav-tabs {
+  direction: ltr;
 }
 .custom-nav-tabs .nav-link {
   margin-bottom: -1px;

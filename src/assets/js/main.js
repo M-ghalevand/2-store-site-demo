@@ -75,7 +75,7 @@ $(document).ready(function () {
         nav:true,
         dots:false,
         center: true,
-        autoplay: false,
+        autoplay: true,
         slideBy:3,
         autoplayTimeout: 5000,
         autoplayHoverPause: true,

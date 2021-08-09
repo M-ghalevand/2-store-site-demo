@@ -1,0 +1,121 @@
+.footer{
+  margin-top: 150px;
+  .top{
+    .news-latter {
+      .row {
+
+        margin-top: -77px;
+        box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.075);
+        .news-latter-s1 {
+          h6{
+            font-size: 16px;
+          }
+          p{
+            font-size: 16px;
+            line-height: 33px;
+          }
+        }
+        .news-latter-s2 {
+          p {
+            font-size: 16px;
+            line-height: 33px;
+          }
+        }
+        .news-latter-s3{
+          .input-news-letter{
+            border-radius:  0!important;
+            &::-webkit-input-placeholder{
+              font-size: 16px;
+            }
+          }
+          button {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+  .bottom{
+    .main-section-footer {
+      h5{
+        font-size: 15px;
+        margin-right: 15px;
+        border-bottom: 3px solid $grey-40;
+        padding-bottom: 10px;
+        display: inline-flex;
+      }
+      .footer-nav-custom {
+        li {
+          a{
+            font-size: 14px;
+            color: #4e4d4d;
+            transition: .5s ease;
+            &:hover {
+              color: $blue-log;
+            }
+          }
+        }
+      }
+    }
+    .support-custom{
+      .support-rules{
+        font-size: 39px;
+        color: $blue-log;
+        margin: 0 16px;
+      }
+      .tel-support {
+        direction: ltr;
+        p{
+          font-size: 16px;
+          color: #4e4d4d;
+        }
+        a{
+          display: block;
+          font-size: 16px;
+          color: #4e4d4d;
+        }
+      }
+    }
+    .social-icon {
+      ul{
+        li{
+          &:first-of-type{
+            margin-right: 8%;
+          }
+          a{
+            color: $grey-40;
+            transition: .5s ease;
+          }
+          .telegram{
+            &:hover{
+              color: rgb(45, 121, 236);
+            }
+          }
+          .insta{
+            &:hover{
+              color: rgb(214, 80, 2);
+            }
+          }
+          .twi{
+            &:hover{
+              color: rgb(34, 103, 206);
+            }
+          }
+          .faceb{
+            &:hover{
+              color: rgb(14, 80, 179);
+            }
+          }
+          .rss{
+            &:hover{
+              color: rgb(243, 149, 72);
+            }
+          }
+        }
+      }
+      p{
+      font-size: 15px;
+      }
+    }
+  }
+}
